@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        name: "on top", // required by Discord API, not shown in the client
+        state: "watching",     // this is what people actually see
+        type: 1,               // Custom
       },
     ],
   },
@@ -93,7 +93,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#ffffff",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
@@ -372,13 +372,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "welcome {user}",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      ,
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1524234885928325130,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
