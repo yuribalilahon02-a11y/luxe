@@ -371,12 +371,12 @@ export const botConfig = {
   welcome: {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
-    defaultWelcomeMessage:
-     
+    defaultWelcomeMessage: 
+    "welcome {user}
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      
+    "goodbye {user}
     // Channel ID for welcome messages.
     defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
